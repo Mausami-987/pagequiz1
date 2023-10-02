@@ -1,0 +1,85 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("mahi.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.quiz-container h1 {
+    font-size: 24px;
+    color: red;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin: 20px 0;
+    color: blue;
+    font-family: arial;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #00479e;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score-container {
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 18px;
+    color: #007BFF;
+}
+
+#next-button {
+    margin-top: 20px;
+}

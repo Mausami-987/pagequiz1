@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="quiz-container">
+        <h1>Quiz</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <ul id="options-list">
+                <li><label><input type="radio" name="answer" value="A"> <span id="optionA"></span></label></li>
+                <li><label><input type="radio" name="answer" value="B"> <span id="optionB"></span></label></li>
+                <li><label><input type="radio" name="answer" value="C"> <span id="optionC"></span></label></li>
+                <li><label><input type="radio" name="answer" value="D"> <span id="optionD"></span></label></li>
+            </ul>
+        </div>
+        <button id="submit-button">Submit</button>
+        <div id="feedback"></div>
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <button id="next-button" style="display: none;">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
